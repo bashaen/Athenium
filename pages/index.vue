@@ -17,7 +17,7 @@ import AppLogo from '~/components/AppLogo.vue'
 export default {
   computed: {
     testys() {
-      return 31;
+      return 15;
     }
   },
   components: {
@@ -66,90 +66,42 @@ ul {
 font-family: 'Alegreya', serif;
 }
 .title3 {
-font-family: 'Alfa Slab One', cursive;
-}
-.title4 {
-font-family: 'Amatic SC', cursive;
-}
-.title5 {
 font-family: 'Bitter', serif;
 }
-.title6 {
+.title4 {
 font-family: 'Boogaloo', cursive;
 }
-.title7 {
+.title5 {
 font-family: 'Bree Serif', serif;
 }
-.title8 {
-font-family: 'Cardo', serif;
-}
-.title9 {
+.title6 {
 font-family: 'Cinzel', serif;
 }
-.title10 {
+.title7 {
 font-family: 'Comfortaa', cursive;
 }
-.title11 {
-font-family: 'Cormorant Garamond', serif;
-}
-.title12 {
-font-family: 'Crimson Text', serif;
-}
-.title13 {
+.title8 {
 font-family: 'Inconsolata', monospace;
 }
-.title14 {
+.title9 {
 font-family: 'Josefin Slab', serif;
 }
-.title15 {
+.title10 {
 font-family: 'Lobster', cursive;
 }
-.title16 {
-font-family: 'Merriweather', serif;
-}
-.title17 {
-font-family: 'Noticia Text', serif;
-}
-.title18 {
+.title11 {
 font-family: 'Open Sans', sans-serif;
 }
-.title19 {
-font-family: 'PT Serif', serif;
-}
-.title20 {
+.title12 {
 font-family: 'Playfair Display', serif;
 }
-.title21 {
+.title13 {
 font-family: 'Playfair Display SC', serif;
 }
-.title22 {
+.title14 {
 font-family: 'Poiret One', cursive;
 }
-.title23 {
-font-family: 'Quattrocento', serif;
-}
-.title24 {
+.title15 {
 font-family: 'Rammetto One', cursive;
-}
-.title25 {
-font-family: 'Roboto Mono', monospace;
-}
-.title26 {
-font-family: 'Roboto Slab', serif;
-}
-.title27 {
-font-family: 'Rokkitt', serif;
-}
-.title28 {
-font-family: 'Slabo 27px', serif;
-}
-.title29 {
-font-family: 'Source Code Pro', monospace;
-}
-.title30 {
-font-family: 'Tinos', serif;
-}
-.title31 {
-font-family: 'Vollkorn', serif;
 }
 </style>
