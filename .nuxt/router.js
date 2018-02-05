@@ -3,7 +3,7 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _253301c2 = () => import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */).then(m => m.default || m)
+const _39eab350 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
 
 
@@ -54,7 +54,7 @@ export function createRouter () {
     routes: [
 		{
 			path: "/",
-			component: _253301c2,
+			component: _39eab350,
 			name: "index"
 		}
     ],

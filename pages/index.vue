@@ -20,7 +20,8 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Alegreya|Alegreya+Sans|Bitter|Boogaloo|Bree+Serif|Cinzel|Cinzel+Decorative|Comfortaa|Inconsolata|Josefin+Sans|Josefin+Slab|Lobster|Lobster+Two|Open+Sans|Open+Sans+Condensed:300|Playfair+Display|Playfair+Display+SC|Poiret+One|Ramaraja|Rammetto+One|Tenali+Ramakrishna');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bitter|Open+Sans|Playfair+Display');
+/* @import url('https://fonts.googleapis.com/css?family=Bitter|Lobster|Lobster+Two|Open+Sans|Playfair+Display'); */
 ul {
   list-style-type: none;
 }
@@ -30,6 +31,6 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: rgb(102, 165, 207);
+  background: rgb(54, 154, 221);
 }
 </style>

@@ -28,8 +28,8 @@ svg {
   transform: rotate(90deg);
 }
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
+  font-family: "Abril Fatface", serif;
   font-weight: 300;
   font-size: 100px;
   color: #fff;
@@ -39,106 +39,22 @@ svg {
 .title:not(.title1) {
   display: none;
 }
-/* Logo:
-1
 
-Fallback Logos: 
-1, 5, 6, 8, 10, 12, 13, 18, 19, 22 
-
-Title Names:
-2, 4, 5, 6, 8, 9, 11, 12, 13, 18, 19, 20, 21, 22
-
-Paragraph Text:
-2, 3, 8, 11, 16, 20, 21
-
-We'll see's:
-4, 7, 14, 15, 17 */
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+.pageTitle {
+  font-family: 'Playfair Display', serif;
+  color: rgb(87, 87, 87);
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 p, a, button, input, .submitBtn {
-  font-family: 'Boogaloo', cursive;
-  /* font-family: 'Comfortaa', cursive; */
-  /* font-family: 'Poiret One', cursive; */
-  /* font-family: 'Rammetto One', cursive; */
-  /* font-family: 'Cinzel Decorative', serif; */
-
-  font-size: 24px;
+  color: rgb(75, 75, 75);
+  font-family: 'Open Sans', 'Bitter', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 18px;
+  letter-spacing: -1px;
 }
 
 .links {
   padding-top: 15px;
-}
-.title1 {
-  font-family: 'Abril Fatface', cursive !important;
-}
-.title2 {
-font-family: 'Alegreya', serif;
-}
-.title3 {
-font-family: 'Bitter', serif;
-}
-.title4 {
-font-family: 'Boogaloo', cursive;
-}
-.title5 {
-font-family: 'Bree Serif', serif;
-}
-.title6 {
-font-family: 'Cinzel', serif;
-}
-.title7 {
-font-family: 'Comfortaa', cursive;
-}
-.title8 {
-font-family: 'Inconsolata', monospace;
-}
-.title9 {
-font-family: 'Josefin Slab', serif;
-}
-.title10 {
-font-family: 'Lobster', cursive;
-}
-.title11 {
-font-family: 'Open Sans', sans-serif;
-}
-.title12 {
-font-family: 'Playfair Display', serif;
-}
-.title13 {
-font-family: 'Playfair Display SC', serif;
-}
-.title14 {
-font-family: 'Poiret One', cursive;
-}
-.title15 {
-font-family: 'Rammetto One', cursive;
-}
-.title16 {
-font-family: 'Alegreya Sans', serif;
-}
-.title17 {
-font-family: 'Cinzel Decorative', serif;
-}
-.title18 {
-font-family: 'Josefin Sans', serif;
-}
-.title19 {
-font-family: 'Lobster Two', cursive;
-}
-.title20 {
-font-family: 'Open Sans Condensed', sans-serif;
-}
-.title21 {
-font-family: 'Tenali Ramakrishna', sans-serif;
-}
-.title22 {
-font-family: 'Ramaraja', serif;
 }
 </style>

@@ -20,11 +20,11 @@
         width: 100%;
         margin: 0 auto 15px auto;
         border: 1px solid black;
-        border-color: rgb(250, 178, 250);
+        border-color: rgb(245, 142, 245);
         padding: 8px;
     }
     .submitBtn {
-        background: rgb(250, 178, 250);
+        background: rgb(255, 184, 255);
         border: none;
         width: 100%;
         padding: 8px;
