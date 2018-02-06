@@ -3,6 +3,8 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
+const _c47eb5e6 = () => import('../pages/register.vue' /* webpackChunkName: "pages/register" */).then(m => m.default || m)
+const _4620101a = () => import('../pages/dashboard.vue' /* webpackChunkName: "pages/dashboard" */).then(m => m.default || m)
 const _39eab350 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
 
@@ -52,6 +54,16 @@ export function createRouter () {
     linkExactActiveClass: 'nuxt-link-exact-active',
     scrollBehavior,
     routes: [
+		{
+			path: "/register",
+			component: _c47eb5e6,
+			name: "register"
+		},
+		{
+			path: "/dashboard",
+			component: _4620101a,
+			name: "dashboard"
+		},
 		{
 			path: "/",
 			component: _39eab350,

@@ -1,19 +1,60 @@
 <template>
   <div>
+    <app-header></app-header>
     <nuxt/>
   </div>
 </template>
 
+<script>
+import AppHeader from '~/components/AppHeader.vue'
+import AppFooter from '~/components/AppFooter.vue'
+
+export default {
+  components: {
+    AppHeader,
+    AppFooter
+  }
+}
+</script>
+
 <style>
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
+  color: rgb(75, 75, 75);
+  font-family: 'Open Sans', 'Bitter', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 18px;
+  letter-spacing: -1px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+li {
+  display: inline-block;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+}
+.title {
+  font-family: "Abril Fatface", serif;
+}
+.pageTitle {
+  font-family: 'Playfair Display', serif;
+  color: rgb(87, 87, 87);
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 *, *:before, *:after {

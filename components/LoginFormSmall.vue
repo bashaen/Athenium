@@ -24,7 +24,8 @@
         padding: 8px;
     }
     .submitBtn {
-        background: rgb(255, 184, 255);
+        background: rgb(54, 115, 221);
+        /* border: 1px solid rgb(255, 184, 255); */
         border: none;
         width: 100%;
         padding: 8px;
