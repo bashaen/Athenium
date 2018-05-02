@@ -6,16 +6,16 @@
     "pages_index.da9e16a37c73fbd80db7.js",
     "pages_dashboard.8486115e20972312beec.js",
     "vendor.bfb6e65cde68030fee52.js",
-    "app.bf2bee0e18584d35f6c0.js",
-    "manifest.de5a83cba18888286257.js",
+    "app.aab62ddafbf8e03e394f.js",
+    "manifest.ffaf890af012bc47a364.js",
     "LICENSES",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.de5a83cba18888286257.js",
+    "manifest.ffaf890af012bc47a364.js",
     "vendor.bfb6e65cde68030fee52.js",
-    "app.bf2bee0e18584d35f6c0.js"
+    "app.aab62ddafbf8e03e394f.js"
   ],
   "async": [
     "layouts_default.14e1a4edc5953baf2898.js",
