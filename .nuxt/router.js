@@ -3,9 +3,9 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _c47eb5e6 = () => import('../pages/register.vue' /* webpackChunkName: "pages/register" */).then(m => m.default || m)
-const _4620101a = () => import('../pages/dashboard.vue' /* webpackChunkName: "pages/dashboard" */).then(m => m.default || m)
-const _39eab350 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
+const _74269963 = () => import('..\\pages\\register.vue' /* webpackChunkName: "pages_register" */).then(m => m.default || m)
+const _3c78a684 = () => import('..\\pages\\dashboard.vue' /* webpackChunkName: "pages_dashboard" */).then(m => m.default || m)
+const _253301c2 = () => import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */).then(m => m.default || m)
 
 
 
@@ -56,17 +56,17 @@ export function createRouter () {
     routes: [
 		{
 			path: "/register",
-			component: _c47eb5e6,
+			component: _74269963,
 			name: "register"
 		},
 		{
 			path: "/dashboard",
-			component: _4620101a,
+			component: _3c78a684,
 			name: "dashboard"
 		},
 		{
 			path: "/",
-			component: _39eab350,
+			component: _253301c2,
 			name: "index"
 		}
     ],
